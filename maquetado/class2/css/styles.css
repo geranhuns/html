@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 100px;
+}
+section {
+    border: 1px solid blue;
+    background-color: beige;
+}
