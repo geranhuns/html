@@ -4,4 +4,23 @@ body {
 
 p, h1, span {
     color:white;
+    text-decoration: underline;
+}
+section{
+    border: 1px solid blue;
+    background-color: beige;
+}
+
+/* referenciar en base al selector de clase iniciando con punto*/
+.noSubrayado {
+    text-decoration: none;
+}
+
+.textoRojo{
+    color: red;
+}
+
+/* Referenciar con base en el selector de id */
+#spanSection {
+    text-decoration: line-through;
 }
