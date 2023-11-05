@@ -1,14 +1,26 @@
 
-.nombre {
-    color: white;
+.card{
+    width: 250px;
+}
+.cardTitleText {
     background-color: grey;
-
+    color: white;
+    text-align: center;
 }
 
-.habilidades {
-
+.cardBody {
 }
 
-.correo {
+.cardContent{
+    font-style: italic;
+}
 
+.cardFooter{
+    background-color: lightgrey;   
+    color: black;
+    text-align: center;
+}
+.email {
+background-color: rgb(223, 223, 223);
+text-align: center;
 }
