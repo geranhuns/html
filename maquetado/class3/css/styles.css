@@ -1,0 +1,31 @@
+#selectorHijo {
+    border: 1px solid red;
+    margin: 20px;
+    padding: 100px;
+}
+
+/* selector hijo (>) selecciona los hijos directos de la etiqueta padre */
+#selectorHijo >p{
+    color: blue;
+}
+
+#selectorHermano h3 + p{
+    background-color: cyan;
+    outline: red solid;
+
+}
+#selectorHermanoGeneral h3 ~ span {
+    background-color: yellow;
+
+}
+
+
+a[href="google.com"] {
+    color: red;
+    margin: 50px;
+}
+a[href="kodemia.com"] {
+    
+    color: green;
+
+}
