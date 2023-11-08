@@ -36,3 +36,17 @@
     position: sticky;
     top: 0;
 }
+
+.fixed {
+    position: fixed;
+    top: 500px;
+    right: 0px;
+    color: white;
+    background-color: green;
+    border-radius: 2px;
+    border-style: solid;
+    width: 100px;
+    height: 15px;
+    padding: 10px;
+
+}
