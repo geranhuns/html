@@ -15,11 +15,14 @@
 
     50% {
         transform: scale(1.2);
-        opacity: 1;
+        opacity: .5;
+        color:pink
     }
 
     100% {
         transform: scale(1);
+        opacity: 1;
+        color: purple;
     }
     
 }
