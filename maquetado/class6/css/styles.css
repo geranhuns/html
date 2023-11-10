@@ -1,0 +1,45 @@
+.blackMargin {
+    width: 80%;
+    min-height: 700px;
+    border: 10px solid black;
+    position: relative;
+}
+
+.redBox {
+        border: 10px solid red;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        background-color: pink;
+}
+
+.spaceEvenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.spaceAround {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+
+.spaceBetween {
+    display: flex  ;
+    justify-content: space-between;
+}
+
+.flexStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center {
+        display: flex;
+        justify-content: center;
+}
