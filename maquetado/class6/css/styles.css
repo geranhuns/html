@@ -1,6 +1,6 @@
 .blackMargin {
     width: 80%;
-    min-height: 700px;
+    min-height: 90px;
     border: 10px solid black;
     position: relative;
 }
