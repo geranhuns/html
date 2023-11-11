@@ -1,0 +1,32 @@
+$colorFondoLista: red;
+$colorBordeCajas: black;
+$bordeGrueso: 10px solid $colorBordeCajas;
+$bordeLigero: 1px dashed $colorBordeCajas;
+
+// body{
+// }
+
+// .container {
+//     width: 200px;
+//     height: 150px;
+//     border: $bordeGrueso;
+// }
+
+// .lista {
+//     background-color: red;
+//     border: $bordeLigero; }
+
+.container {
+    width: 200px;
+    height: 150px;
+    border: $bordeGrueso;
+    ul {
+        background-color: $colorFondoLista;
+            li {
+            }
+
+    }
+    p {
+        text-decoration: underline;
+    }
+}
