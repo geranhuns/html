@@ -1,0 +1,117 @@
+* {
+    margin: 0  ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292d33;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #292d33;
+    
+    color: white;
+    padding: 20px 10px;
+    position: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.menuNav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+}
+
+.menuNav li {
+    list-style: none;
+}
+.menuNav a {
+    color: white;
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cajaFlex {
+    display: flex;
+    flex-direction: column;
+
+}
+.articulo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 20px 0;
+}
+
+.mainContainer {
+    margin-top: 45px;
+    padding: 10px;
+    height: 89vh;
+}
+
+
+.textoCentrado {
+    text-align: center;
+}
+
+.contenedorImagen {
+    width: 90%;
+    padding: 10px;
+
+}
+
+
+.imagenArticle {
+    width: 100%;
+}
+
+.contenedorFechas span {
+    color: #cdc9c9;
+}
+
+.contenedorTitulo {
+    padding: 8px;
+}
+
+footer {
+    padding: 16px;
+    background-color: #434445;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+
+}
+
+
+@media screen and (min-width: 600px) {
+    .cajaFlex {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+     .articulo {
+        width: 45%;
+        margin: 10px 20px;
+     }
+    }
+    
+
+
+    @media screen and (min-width: 992px){
+        .articulo {
+            width: 30%;
+         }
+    }
