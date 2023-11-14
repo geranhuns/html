@@ -1,31 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: black;
+  background-color: white;
   margin-top: 50px;
 }
 
-.miContainer {
+/* .miContainer {
   background-color: black;
   border-radius: 10px;
   height: 200px;
   border: grey solid 4px;
-}
+} */
 
 .miRow {
-  color: white;
-  /* background-color: midnightblue; */
-  border-radius: 10px;
-  /* border: steelblue solid; */
-  height: 80px;
-  margin: 10px;
+  height: 50%;
   justify-content: center;
 }
 
 .miCol {
+}
+
+.miColBlue {
+  background-color: #3a4b5d;
   color: white;
-  background-color: midnightblue;
-  border-radius: 10px;
-  margin: 10px;
-  text-align: center;
-  border: steelblue solid 2px;
-  justify-content: center;
+}
+
+.miColGrey {
+  background-color: lightgrey;
+  color: black;
+}
+
+.miColRed {
+  background-color: #b04334;
+  color: white;
+}
+
+.miHeader {
+  background-color: #3a4b5d;
+  color: white;
+}
+
+.container {
 }
