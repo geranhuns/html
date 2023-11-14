@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  margin-top: 50px;
+}
+
+.miContainer {
+  background-color: black;
+  border-radius: 10px;
+  height: 200px;
+  border: grey solid 4px;
+}
+
+.miRow {
+  color: white;
+  /* background-color: midnightblue; */
+  border-radius: 10px;
+  /* border: steelblue solid; */
+  height: 80px;
+  margin: 10px;
+  justify-content: center;
+}
+
+.miCol {
+  color: white;
+  background-color: midnightblue;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  border: steelblue solid 2px;
+  justify-content: center;
+}
