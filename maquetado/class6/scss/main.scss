@@ -1,0 +1,36 @@
+$redBorder: red 2px solid;
+$pinkBackground: pink;
+$blueFont: blue;
+$blackBorder: black solid 3px;
+
+.redBox {
+    display: flex;
+    justify-content: flex-start;
+    background-color: $pinkBackground;
+    border: $redBorder;
+}
+
+@mixin cajaFlexCentradaSpaceEvenly {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body {
+    h2{
+        color: $blueFont;
+    }
+}
+
+
+body {
+        section {
+            display: flex;
+        border: $blackBorder;   
+    // display: flex;
+    // border: $blackBorder;
+    // background-color: $pinkBackground;
+        }
+    
+    }

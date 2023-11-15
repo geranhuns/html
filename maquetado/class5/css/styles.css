@@ -1,6 +1,6 @@
 .bounceIn {
     animation-name: rebotarTexto;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     width: 200px;
     margin: 10px;
@@ -13,8 +13,28 @@
         transform: scale(0.1);
     }
 
-    50% {
+    10% {
         transform: scale(1.2);
+        opacity: .2;
+        color:pink
+
+    }
+
+    20%{
+        transform: scale(1.4);
+        opacity: .3;
+        color:pink
+
+    }
+    30%{
+        transform: scale(1.5);
+        opacity: .4;
+        color:pink
+
+    }
+
+    50% {
+        transform: scale(1.8);
         opacity: .5;
         color:pink
     }
@@ -26,3 +46,30 @@
     }
     
 }
+
+
+@media screen  and (max-width: 600px) {
+body{
+    
+    background-color: blue;
+}
+}
+@media screen and (min-width: 600px) {
+body{
+    
+    background-color: red;
+ }}
+@media screen and (min-width: 768px) {
+body{
+    background-color: purple;
+
+ }}
+@media screen and (min-width: 992px){
+body{
+    background-color: orange;
+
+ }}
+@media screen and (min-width: 1200px) {
+body{
+    background-color: black;
+ }}

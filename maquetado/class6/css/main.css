@@ -1,0 +1,9 @@
+body h2 {
+  color: blue;
+}
+
+h2 section {
+  display: flex;
+  border: black solid 3px;
+  background-color: pink;
+}/*# sourceMappingURL=main.css.map */
